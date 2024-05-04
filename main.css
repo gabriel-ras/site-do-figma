@@ -10,7 +10,7 @@ p {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 90px;
     background-color: rgb(255, 0, 0);
     color: aliceblue;
     line-height: 120px;
@@ -18,7 +18,7 @@ h1 {
 
 li {
     list-style: none;
-    background-color: gray;
+    background-color: rgb(168, 168, 168);
     width: 300px;
     height: 100px;
     font-style:normal;
@@ -64,4 +64,61 @@ img {
 .centraliza {
     display: flex;
     align-items: center;
+}
+
+.img-site {
+    width: 600px;
+    margin-left: 300px;
+    margin-right: 50px;
+    transform:translateY(20px);
+    border-radius:  5%;
+}
+
+.text-produtos {
+    transform: translateY(-10px);
+    background-color:  rgb(168, 168, 168);
+    width: 600px;
+    height: 600px;
+    border-radius:  5%;
+
+}
+
+.paragrafo{
+    margin-left: 30px;
+}
+
+p {
+    white-space: pre-line;
+}
+
+.subtitulo {
+    margin-left: 200px;
+}
+
+.desc {
+    margin-left: 40px;
+    font-weight: normal;
+}
+
+.valor {
+    margin-left: 60px;
+    font-weight: normal;
+}
+
+.custom-button {
+    display: inline-block;
+    padding: 25px 90px;
+    background-color: #bb3535;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 170px;
+}
+
+.custom-button:hover {
+    background-color: #af4c4c;
 }
