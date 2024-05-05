@@ -122,3 +122,16 @@ p {
 .custom-button:hover {
     background-color: #af4c4c;
 }
+
+.linkdaspaginas {
+    text-decoration: none;
+    color: black;
+}
+
+.inicio {
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+}
+
